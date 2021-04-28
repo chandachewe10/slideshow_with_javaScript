@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Simple Slideshow</title>
+    <meta charset="utf-8" />
+    <meta name="developer" content="chanda-chewe" />
+    <meta name="description"
+        content="Chanda Chewe is a Full stack web developer specialised in
+         Web design and development,Telecommunications, Networking, Software Engineering, Sales and Marketing Industry. I provide Information Technology services. I am rated one of the best IT service providing individuals  in Zambia with a large pool of software & web services available at a good price.I have proven expertise in trending web technologies like PHP, Laravel, Magento, ReactJs, front end technologies like VueJs, backend technologies Node.js to develop custom and responsive websites, web apps, and eCommerce solutions" />
+    <meta name="revised" content="17/12/2020" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </script>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <!--local bootstrap-->    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--local jquery-->  
+<script src="css/jquery-3.2.1.min.js"></script>
+<!--local css-->
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<center>
+
+    <body>
+
+
+<!--Featured Projects-->
+<div class="mainwrapper">
+    <h3 style="font-weight: bold;color: royalblue;">Slide Show Javascript  <h3>
+
+        <div  class="timeline-card timeline-card-primary shadow p-3 mb-5 bg-white rounded" style="width:90%; display: none;" id="restart">
+            <!--first Image-->
+            <img src="images\g7.jpg" height="350" width="80%"  />
+           <hr>
+            <button class="btn btn-primary">1/3</button>
+        <button class="btn btn-secondary  angle" ><</button>
+              <button class="btn btn-secondary secondangle" onclick="next()">></button>
+         
+              
+        
+          </div> 
+        
+        
+        
+        <div  class="timeline-card timeline-card-primary shadow p-3 mb-5 bg-white rounded" style="width:90%" id="par">
+                              <!--first Image-->
+                              <img src="images\g7.jpg" height="350" width="80%"   />
+                             <hr>
+                             <button class="btn btn-primary">1/3</button>
+            <button class="btn btn-secondary  angle" ><</button>
+                                <button class="btn btn-secondary secondangle" onclick="next()">></button>
+                           
+                                
+        
+                            </div> 
+                        
+                            <!--second div-->
+                            <div  class="timeline-card timeline-card-primary shadow p-3 mb-5 bg-white rounded" style="width:90%; display: none;" id="pear">
+                           <img src="images/g1.jpg" height="350" width="80%"  />
+                          <hr>
+                          <button class="btn btn-primary">2/3</button>
+              <button class="btn btn-secondary  angle" onclick="back()"><</button>
+                                  <button class="btn btn-secondary secondangle" onclick="nextagain()">></button>
+                             
+                                  
+          
+                              </div> 
+        
+                              <!--Third div-->
+                            <div  class="timeline-card timeline-card-primary shadow p-3 mb-5 bg-white rounded" style="width:90%; display: none;" id="resume">
+                                <img src="images\g5.jpg" height="350" width="80%" />
+              <hr>
+              <button class="btn btn-primary">3/3</button>
+              <button class="btn btn-secondary  angle" onclick="backagain()"><</button>
+                                  <button class="btn btn-secondary secondangle" onclick="start()">></button>
+                             
+                                  
+          
+                              </div> 
+        
+        
+        
+         
+              
+        
+                            </div>  
+        
+          <script src="css/slide.js"></script>
+
+
+
+
+    </body>
+    </html>
